@@ -1,5 +1,27 @@
 .App {
   text-align: center;
-  background: black;
-  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+
+h3 {
+  color: aliceblue;
+  font-weight: 300;
+  padding: 6px;
+  margin: 3px;
+}
+q {
+  color: darkgreen;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+span {
+  color: darkred;
+  margin: 0;
+  padding: 0;
 }
