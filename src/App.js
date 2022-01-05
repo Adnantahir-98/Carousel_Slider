@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react'
+import Slider from './Components/Slider/Slider'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>Custome Slider</h3>
+      <p><q>Fully Customizable Slider Carousel using React useState Hook</q></p>
+      <span>Without using any external Library</span>
+      <Slider />
     </div>
   );
 }
